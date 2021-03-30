@@ -13,9 +13,9 @@ const router = (app) => {
   app.get('/*', controllers.notFound);
 
   app.post('/setName', controllers.setName);
-    
+
   app.post('/setDog', controllers.setDog);
-  app.post('/updateByName', controllers.ageUpName);  
+  app.post('/updateByName', controllers.ageUpName);
 
   app.post('/updateLast', controllers.updateLast);
 };
